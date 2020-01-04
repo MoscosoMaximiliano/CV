@@ -16,6 +16,7 @@ body {
 	height: 100%;
 	background: url('images/bg.jpg') no-repeat center fixed;
 	background-size: cover;
+	overflow-x: hidden !important;
 }
 
 section {
@@ -270,6 +271,9 @@ li {
 }
 .fa-instagram:hover {
 	color: #833AB4;
+}
+.fa-github:hover {
+	color: ##999999;
 }
 
 
@@ -577,7 +581,7 @@ input[type="submit"]:hover {
 	}
 
 	.timeline .date::after {
-		left: -5.5rem;
+		left: -6rem;
 	}
 
 }
@@ -598,10 +602,12 @@ input[type="submit"]:hover {
 
 	.nav-list {
 		flex-direction: column;
+		width: 87%;
+		align-items: center;
 	}
 
 	li {
-		margin: 1rem 0;
+		margin: 2rem 0;
 	}
 
 	.nav-link {
@@ -636,10 +642,6 @@ input[type="submit"]:hover {
 
 	.timeline .date::before {
 		font-size: 1.4rem;
-	}
-
-	.timeline .date::after {
-		width: 100%;
 	}
 
 	.up {

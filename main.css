@@ -9,7 +9,6 @@ html {
 	font-size: 10px;
 	font-family: 'Roboto', sans-serif;
 	color: #eee;
-	overflow-x: hidden !important;
 }
 
 body {
@@ -17,7 +16,11 @@ body {
 	height: 100%;
 	background: url('images/bg.jpg') no-repeat center fixed;
 	background-size: cover;
-	overflow-x: hidden !important;
+}
+
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 section {

@@ -9,6 +9,7 @@ html {
 	font-size: 10px;
 	font-family: 'Roboto', sans-serif;
 	color: #eee;
+	overflow-x: hidden !important;
 }
 
 body {
@@ -44,6 +45,10 @@ img {
 	max-width: 120rem;
 	height: 100%;
 	margin: 0 auto;
+	position: relative;
+}
+
+.wrap {
 	position: relative;
 }
 

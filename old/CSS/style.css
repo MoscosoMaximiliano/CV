@@ -234,6 +234,12 @@ header .header-cases {
 }
 
 @media only screen and (min-width: 1000px) {
+	.wrapper {
+		width: 1000px;
+		margin: 0 auto;
+
+	}
+
 	.index-banner {
 	height: 450px;	
 	}
@@ -242,6 +248,28 @@ header .header-cases {
 		display: block;
 		width: 560px;
 		margin: 0 auto;	
+	}
+
+	.index-links {
+		overflow: hidden;
+	}
+
+	.index-links div {
+		margin: 20px 10px 0;
+		height: 140px;
+		background-color: #f2f2f2;
+		float: left;
+	}
+
+	.index-boxlink-square {
+		width: calc(25% - 20px) !important;
+	}
+	.index-boxlink-rectangle {
+		width: calc(50% - 20px) !important;
+	}
+
+	.index-links div h3 {
+	line-height: 135px;
 	}
 
 }
@@ -291,4 +319,23 @@ footer ul li a {
 	margin-botton: 10px;
 	-webkit-filter: invert(1);
 	filter: invert(1);
+}
+
+@media only screen and (min-width: 1000px) {
+	.footer-links-games {
+	display: block;
+	}
+
+	footer ul {
+		padding-right: 15px;
+	}
+
+	footer ul li p {
+	font-family: 'Kulim Park', sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	line-height: 40px;
+	text-transform: uppercase;
+	}
+
 }

@@ -477,6 +477,24 @@ input[type="submit"]:hover {
 	background-color: #E18AAA;
 }
 
+.box-email {
+	text-align: center;
+}
+
+.text-email {
+	font-size: 3rem;
+	font-family: 'Raleway', sans-serif;
+	background: linear-gradient(to top, #E0FEFE, #FEBCC8);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	user-select: none;
+}
+
+
+
+/*End contact*/
+
+/*Start footer*/
 .copyright {
 	width: 100%;
 	text-align: center;
@@ -507,10 +525,6 @@ input[type="submit"]:hover {
 .copyright p {
 	font-size: 1.4rem;
 }
-
-/*End contact*/
-
-/*Start footer*/
 /*End footer*/
 
 /*Start animations*/

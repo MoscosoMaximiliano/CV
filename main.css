@@ -524,7 +524,7 @@ input[type="submit"]:hover {
 	}
 
 	.landing-text h1 {
-		font-size: 15rem;
+		font-size: 10rem;
 	}
 
 	.landing-text h6 {
@@ -589,11 +589,19 @@ input[type="submit"]:hover {
 	}
 
 	.landing-text h1 {
-		font-size: 8rem;
+		font-size: 5rem;
 	}
 
 	.landing-text h6 {
 		font-size: 1.4rem;
+	}
+
+	.nav-list {
+		flex-direction: column;
+	}
+
+	li {
+		margin: 1rem 0;
 	}
 
 	.nav-link {

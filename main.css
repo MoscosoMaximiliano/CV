@@ -7,7 +7,8 @@
 
 html {
 	font-size: 10px;
-	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Kalam', cursive;
 	color: #eee;
 }
 
@@ -33,7 +34,7 @@ a {
 }
 
 p {
-	font-size: 1.8rem;
+	font-size: 2rem;
 	font-weight: 300;
 	text-align: center;
 }
@@ -41,11 +42,13 @@ p {
 img {
 	width: 100%;
 }
+
+
 /*End global*/
 
 /*Start reusable*/
 .container {
-	width: 90%;
+	width: 100%;
 	max-width: 120rem;
 	height: 100%;
 	margin: 0 auto;
@@ -137,7 +140,8 @@ li {
 }
 
 .nav-link {
-	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
+	font-family: 'Kalam', cursive;
 	font-size: 5rem;
 	padding: 1rem;
 }
@@ -215,8 +219,9 @@ li {
 }
 
 .landing-text h1 {
-	font-size: 20rem;
-	font-family: 'Raleway', sans-serif;
+	font-size: 18rem;
+	/*font-family: 'Raleway', sans-serif;*/
+	font-family: 'Julius Sans One', sans-serif;
 	background: linear-gradient(to top, #E0FEFE, #FEBCC8);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -317,14 +322,15 @@ li {
 	background-color: #D3EEFF;
 	margin-bottom: 2rem;
 	display: flex;
-	transform: rotate(45deg);
+	/*transform: rotate(45deg);*/
+	border-radius: 100%;
 }
 
 .icon-container i {
 	color: #FEBCC8;
 	font-size: 5rem;
 	margin: auto;
-	transform: rotate(-45deg);
+	/*transform: rotate(-45deg);*/
 }
 /*End services*/
 
@@ -483,8 +489,9 @@ input[type="submit"]:hover {
 }
 
 .text-email {
-	font-size: 7rem;
-	font-family: 'Raleway', sans-serif;
+	font-size: 5rem;
+	/*font-family: 'Raleway', sans-serif;*/
+	font-family: 'Julius Sans One', sans-serif;
 	background: linear-gradient(to top, #E0FEFE, #FEBCC8);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;

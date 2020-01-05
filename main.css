@@ -170,6 +170,7 @@ li {
 
 .menu-toggler.open {
 	transform: rotate(-45deg);
+	overflow: none;
 }
 
 .bar {
@@ -482,12 +483,11 @@ input[type="submit"]:hover {
 }
 
 .text-email {
-	font-size: 3rem;
+	font-size: 7rem;
 	font-family: 'Raleway', sans-serif;
 	background: linear-gradient(to top, #E0FEFE, #FEBCC8);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	user-select: none;
 }
 
 
@@ -589,6 +589,10 @@ input[type="submit"]:hover {
 		height: 7rem;
 	}
 
+	.text-email {
+		font-size: 2rem;
+	}
+
 	.fa-youtube:before {
 		padding-left: 2rem;
 	}
@@ -663,6 +667,10 @@ input[type="submit"]:hover {
 
 	.timeline p{
 		font-size: 1.6rem;
+	}
+
+	.text-email {
+		font-size: 2rem;
 	}
 
 	.timeline .date::before {

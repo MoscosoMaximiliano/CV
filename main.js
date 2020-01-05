@@ -1,7 +1,8 @@
 $(document).ready(function () {
+
 	$('.menu-toggler').on('click', function(){
 		$(this).toggleClass('open');
-		$('.top-nav').toggleClass('open');
+		$('.top-nav').toggleClass('open');     
 	});
 
 	$('.top-nav .nav-link').on('click', function(){
@@ -25,4 +26,6 @@ $(document).ready(function () {
 		easing: 'ease',
 		duration: 1800,
 	});
+
+	
 });

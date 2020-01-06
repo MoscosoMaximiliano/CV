@@ -165,16 +165,56 @@ li {
 
 .menu-toggler {
 	position: fixed;
-	top: 5rem;
-	right: 5rem;
+	top: 7rem;
+	right: 10rem;
 	width: 5rem;
-	height: 4rem;
+	height: 5rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	cursor: pointer;
 	z-index: 1500;
 	transition: transform 650ms ease-out;
+}
+
+.menu-toggler span {
+    font-size:14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    bottom: 0;
+    left: -47px;
+    line-height: 0px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    white-space: nowrap;
+    width: 0;
+    
+    /* CSS3 Transition: */
+	-webkit-transition: 0.50s;
+	/* Future proofing (these do not work yet): */
+	-moz-transition: 0.50s;
+	transition: 0.50s;  
+}
+
+.menu-toggler:hover span { 
+	width:auto; 
+	padding:0 30px;
+	overflow:visible; 
+}
+
+.menu-toggler.open:hover span {
+	overflow: hidden;
+}
+
+.menu-toggler:hover {
+	text-decoration:none;
+}
+
+.menu-toggler span {
+	background-color: ##B7B7B7; 
+	color:##FFFFFF;
 }
 
 .menu-toggler.open {
@@ -224,7 +264,7 @@ li {
 }
 
 .landing-text h1 {
-	font-size: 15rem;
+	font-size: 9rem;
 	/*font-family: 'Raleway', sans-serif;*/
 	font-family: 'Julius Sans One', sans-serif;
 	background: linear-gradient(to top, #E0FEFE, #FEBCC8);
@@ -350,7 +390,7 @@ li {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-bottom: 5rem;
+	margin-bottom: 10rem;
 }
 
 .portfolio-item:last-child {
@@ -470,7 +510,7 @@ li {
 
 }
 
-form {
+/*form {
 	width: 70%;
 	margin: 0 auto;
 }
@@ -502,14 +542,14 @@ input[type="submit"] {
 input[type="submit"]:hover {
 	color: #eee;
 	background-color: #E18AAA;
-}
+}*/
 
 .box-email {
 	text-align: center;
 }
 
 .text-email {
-	font-size: 5.5rem;
+	font-size: 3rem;
 	/*font-family: 'Raleway', sans-serif;*/
 	font-family: 'Julius Sans One', sans-serif;
 	background: linear-gradient(to top, #E0FEFE, #FEBCC8);
@@ -579,7 +619,7 @@ input[type="submit"]:hover {
 	}
 
 	.landing-text h1 {
-		font-size: 8rem;
+		font-size: 5rem;
 	}
 
 	.landing-text h6 {
@@ -592,6 +632,10 @@ input[type="submit"]:hover {
 
 	li {
 		margin: 2rem 0;
+	}
+
+	p{
+		font-size: 0.9rem;
 	}
 
 	.nav-link {
@@ -669,6 +713,10 @@ input[type="submit"]:hover {
 		margin: 2rem 0;
 	}
 
+	p{
+		font-size: 1.2rem;
+	}
+
 	.nav-link {
 		font-size: 3.5rem;
 	}
@@ -705,7 +753,7 @@ input[type="submit"]:hover {
 	}
 
 	.timeline .date::before {
-		font-size: 1.4rem;
+		font-size: 1rem;
 	}
 
 	.up {

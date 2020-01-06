@@ -60,6 +60,10 @@ img {
 	position: relative;
 }
 
+.locked {
+	overflow-y: hidden;
+}
+
 .section-heading {
 	text-align: center;
 	margin-bottom: 5rem;
@@ -141,6 +145,8 @@ li {
 }
 
 .nav-link {
+	/*font-family: 'Raleway', sans-serif;*/
+	/*font-family: 'Kalam', cursive;*/
 	font-size: 5rem;
 	padding: 1rem;
 }

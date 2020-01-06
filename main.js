@@ -3,11 +3,13 @@ $(document).ready(function () {
 	$('.menu-toggler').on('click', function(){
 		$(this).toggleClass('open');
 		$('.top-nav').toggleClass('open');     
+		$('html').toggleClass('locked');
 	});
 
 	$('.top-nav .nav-link').on('click', function(){
 		$('.menu-toggler').removeClass('open');
 		$('.top-nav').removeClass('open');
+		$('html').removeClass('locked');
 	});
  
 	$('nav a[href*="#"]').on('click', function () {

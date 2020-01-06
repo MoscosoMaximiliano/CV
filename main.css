@@ -269,7 +269,10 @@ li {
 
 .profile-img {
 	flex: 1;
-	margin-right: 5rem;
+	margin-right: -10rem;
+	padding-left: 5rem;
+	height: 600px;
+	width: auto;
 }
 
 .about-details {
@@ -591,7 +594,7 @@ input[type="submit"]:hover {
 		margin: 2rem 0;
 	}
 
-	.nav-links {
+	.nav-link {
 		font-size: 4.5rem;
 	}
 
@@ -676,6 +679,7 @@ input[type="submit"]:hover {
 
 	.profile-img {
 		margin: 0 0 7rem 0;
+		padding: 0;
 	}
 
 	.portfolio-item {

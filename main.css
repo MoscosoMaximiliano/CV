@@ -7,8 +7,8 @@
 
 html {
 	font-size: 10px;
-	/*font-family: 'Roboto', sans-serif;*/
-	font-family: 'Kalam', cursive;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #eee;
 }
 
@@ -37,6 +37,7 @@ p {
 	font-size: 2rem;
 	font-weight: 300;
 	text-align: center;
+	display: block;
 }
 
 img {
@@ -61,7 +62,7 @@ img {
 
 .section-heading {
 	text-align: center;
-	margin-bottom: 10rem;
+	margin-bottom: 5rem;
 }
 
 .section-heading h1 {
@@ -148,7 +149,7 @@ li {
 
 .nav-link:hover,
 .nav-link:focus {
-	background: linear-gradient(to top, #ffe838, #fd57bf);
+	background: linear-gradient(to top, #E0FEFE, #FEBCC8);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -219,10 +220,13 @@ li {
 }
 
 .landing-text h1 {
-	font-size: 18rem;
+	font-size: 15rem;
 	/*font-family: 'Raleway', sans-serif;*/
 	font-family: 'Julius Sans One', sans-serif;
 	background: linear-gradient(to top, #E0FEFE, #FEBCC8);
+	background: -webkit-linear-gradient(to top, #E0FEFE, #FEBCC8);
+	background: -o-linear-gradient(to top, #E0FEFE, #FEBCC8);
+	background: -moz-linear-gradient(to top, #E0FEFE, #FEBCC8);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	padding: 1rem;
@@ -357,6 +361,7 @@ li {
 	font-size: 3rem;
 	font-weight: 300;
 	margin: 1rem 0;
+	text-align: center;
 }
 
 
@@ -489,10 +494,13 @@ input[type="submit"]:hover {
 }
 
 .text-email {
-	font-size: 5rem;
+	font-size: 5.5rem;
 	/*font-family: 'Raleway', sans-serif;*/
 	font-family: 'Julius Sans One', sans-serif;
 	background: linear-gradient(to top, #E0FEFE, #FEBCC8);
+	background: -webkit-linear-gradient(to top, #E0FEFE, #FEBCC8);
+	background: -o-linear-gradient(to top, #E0FEFE, #FEBCC8);
+	background: -moz-linear-gradient(to top, #E0FEFE, #FEBCC8);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -556,7 +564,7 @@ input[type="submit"]:hover {
 	}
 
 	.landing-text h1 {
-		font-size: 10rem;
+		font-size: 8rem;
 	}
 
 	.landing-text h6 {
@@ -597,7 +605,7 @@ input[type="submit"]:hover {
 	}
 
 	.text-email {
-		font-size: 2rem;
+		font-size: 3.3rem;
 	}
 
 	.fa-youtube:before {

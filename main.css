@@ -175,6 +175,7 @@ li {
 	cursor: pointer;
 	z-index: 1500;
 	transition: transform 650ms ease-out;
+	background-color: ##B1B1B1;
 }
 
 .menu-toggler span {
@@ -307,10 +308,14 @@ li {
 	font-weight: 300;
 }
 
+.about-heading p {
+	margin: 2rem;
+}
+
 .profile-img {
 	flex: 1;
 	margin-right: -10rem;
-	padding-left: 5rem;
+	padding-left: 2rem;
 	height: 600px;
 	width: auto;
 }
@@ -618,6 +623,25 @@ input[type="submit"]:hover {
 		background-size: cover;
 	}
 
+	.menu-toggler {
+		position: fixed;
+		top: 0rem;
+		right: 0rem;
+		width: 4rem;
+		height: 4rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.menu-toggler span {
+		overflow: visible;
+	}
+
+	.menu-toggler.open {
+		overflow: hidden;
+	}
+
 	.landing-text h1 {
 		font-size: 5rem;
 	}
@@ -693,6 +717,15 @@ input[type="submit"]:hover {
 	.menu-toggler {
 		top: 2rem;
 		right: 2rem;
+	}
+
+
+	.menu-toggler span {
+		overflow: visible;
+	}
+
+	.menu-toggler.open {
+		overflow: hidden;
 	}
 
 	.landing-text h1 {

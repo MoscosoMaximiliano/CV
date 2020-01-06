@@ -357,6 +357,14 @@ li {
 .portfolio-img { /* leave it */
     flex: 1;
 }
+
+.game-img {
+	width: 350px;
+	height: 350px;
+	background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
 .portfolio-description {
     flex: 1;
 }

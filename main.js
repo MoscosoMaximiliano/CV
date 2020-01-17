@@ -2,7 +2,7 @@ $(document).ready(function () {
 
 	$('.menu-toggler').on('click', function(){
 		$(this).toggleClass('open');
-		$('.top-nav').toggleClass('open');     
+		$('.top-nav').toggleClass('open');
 		$('html').toggleClass('locked');
 	});
 
@@ -11,7 +11,7 @@ $(document).ready(function () {
 		$('.top-nav').removeClass('open');
 		$('html').removeClass('locked');
 	});
- 
+
 	$('nav a[href*="#"]').on('click', function () {
 		$('html, body').animate({
 			scrollTop: $($(this).attr('href')).offset().top - 100
@@ -29,5 +29,5 @@ $(document).ready(function () {
 		duration: 800,
 	});
 
-	
+
 });

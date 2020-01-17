@@ -501,10 +501,9 @@ textarea {
 	margin-bottom: 5px;
 	border-radius: 2rem;
 	border-color: #FEBCC8;
-	/* outline: #FEBCC8; */
-	background: rgba(0, 0, 0, 0);
+	background: rgba(20, 20, 20, 0.2);
 	color: white;
-	decoration: none;
+	outline: none;
 }
 
 input[type="submit"] {

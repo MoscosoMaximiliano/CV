@@ -298,6 +298,7 @@ li {
 
 .socia-media {
 	margin-top: 5rem;
+	padding: 0;
 }
 
 .social-media i{
@@ -425,10 +426,6 @@ li.python:after {
 }
 
 /*End Animations Skills languages*/
-
-
-
-
 /*End Skills languages*/
 
 /*Start services*/

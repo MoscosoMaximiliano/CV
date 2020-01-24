@@ -366,62 +366,80 @@ li {
 
 /*Start Animations Skills Languages*/
 li.html:after {
-	animation-name: html;
+	animation-name: two_years;
 }
 
-@keyframes html {
+li.css:after {
+	animation-name: one_year;
+}
+
+li.php:after {
+	animation-name: one_year;
+}
+
+li.js:after {
+	animation-name: one_year;
+}
+
+li.csharp:after {
+	animation-name: four_years;
+}
+
+li.python:after {
+	animation-name: two_years;
+}
+
+li.mysql:after {
+	animation-name: two_years;
+}
+
+li.java:after {
+	animation-name: three_years;
+}
+
+
+@keyframes one_year {
+	to {
+		width: calc((1*100%)/6);
+	}
+}
+
+
+
+@keyframes two_years {
 	to {
 		width: calc((2*100%)/6);
 	}
 }
 
-li.css:after {
-	animation-name: css;
-}
 
-@keyframes css {
+
+@keyframes three_years {
 	to {
-		width: calc((1*100%)/6);
+		width: calc((3*100%)/6);
 	}
 }
 
-li.php:after {
-	animation-name: php;
-}
 
-@keyframes php {
-	to {
-		width: calc((1*100%)/6);
-	}
-}
 
-li.js:after {
-	animation-name: js;
-}
-
-@keyframes js {
-	to {
-		width: calc((1*100%)/6);
-	}
-}
-
-li.csharp:after {
-	animation-name: csharp;
-}
-
-@keyframes csharp {
+@keyframes four_years {
 	to {
 		width: calc((4*100%)/6);
 	}
 }
 
-li.python:after {
-	animation-name: python;
+
+@keyframes five_years {
+	to {
+		width: calc((5*100%)/6);
+	}
 }
 
-@keyframes python {
+
+
+@keyframes six_years {
 	to {
-		width: calc((2*100%)/6);
+		width: calc((6*100%)/6);
 	}
 }
 

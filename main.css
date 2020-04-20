@@ -299,6 +299,15 @@ li {
 	flex: 1;
 }
 
+.nav-list-social {
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
 .socia-media {
 	margin-top: 5rem;
 	padding: 0;

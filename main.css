@@ -489,6 +489,11 @@ li.java:after {
 /*End services*/
 
 /*Start portfolio*/
+
+iframe{
+	background-color: black;
+}
+
 .portfolio-item {
 	display: flex;
 	align-items: center;
@@ -742,7 +747,7 @@ input[type="submit"]:hover {
 	}
 
 	.nav-list {
-		flex-direction: column;
+		flex-direction: row;
 	}
 
 	li {

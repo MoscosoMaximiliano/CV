@@ -864,7 +864,7 @@ input[type="submit"]:hover {
 	.profile-img {
 		margin: auto;
 		padding: 0;
-		border-radius: 50px;
+		border-radius: 500px;
 	}
 
 	.portfolio-item {

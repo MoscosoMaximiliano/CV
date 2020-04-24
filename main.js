@@ -2,14 +2,14 @@ var scrollY;
 
 $(document).ready(function () {
 
-  scrollY = localStorage.getItem('scrollPosition');
-
-  console.log(scrollY);
-
-  if (scrollY != 0)
-    $('html, body').animate({
-      scrollTop: scrollY,
-    }, 0);
+  // scrollY = localStorage.getItem('scrollPosition');
+  //
+  // console.log(scrollY);
+  //
+  // if (scrollY != 0)
+  //   $('html, body').animate({
+  //     scrollTop: scrollY,
+  //   }, 0);
 
   //Scroll or hide the menu
   $('.menu-toggler').on('click', function () {
@@ -53,7 +53,7 @@ function ChangePage(url)
 
   scrollY = document.documentElement.scrollTop;
 
-  localStorage.setItem('scrollPosition', scrollY);
+  // localStorage.setItem('scrollPosition', scrollY);
 
   window.location.replace(url);
 

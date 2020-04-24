@@ -31,36 +31,36 @@ $(document).ready(function () {
     duration: 800,
   });
 
-  initLanguage();
-
-  console.log('/language/' + localStorage.getItem('language') + '.json');
-  //Setting all texts with language selections
-  $('#lang-WIP').text(language.wip);
+  // initLanguage();
+  //
+  // console.log('/language/' + localStorage.getItem('language') + '.json');
+  // //Setting all texts with language selections
+  // $('#lang-WIP').text(language.wip);
 });
 
-//Functions used for set up the language
+//Functions used for set up the language ( NOT WORKING CHROME DON'T ACCEPT REQUEST FROM FILE)
 
-function initLanguage()
-{
-  (localStorage.getItem('language') == null) ? setLanguage('es') : setLanguage('en');
-
-  getLanguage();
-}
-
-function getLanguage() {
-
-  $.ajax({
-    url: '/language/' + localStorage.getItem('language') + '.json',
-    dataType: 'json',
-    async: false,
-    dataType: 'json',
-    success: function (lang) {
-      language = lang;
-    },
-  });
-}
-
-function setLanguage(lang) {
-  console.log(lang);
-  localStorage.setItem('language', lang);
-}
+// function initLanguage()
+// {
+//   (localStorage.getItem('language') == null) ? setLanguage('es') : setLanguage('en');
+//
+//   getLanguage();
+// }
+//
+// function getLanguage() {
+//
+//   $.ajax({
+//     url: '/language/' + localStorage.getItem('language') + '.json',
+//     dataType: 'json',
+//     async: false,
+//     dataType: 'json',
+//     success: function (lang) {
+//       language = lang;
+//     },
+//   });
+// }
+//
+// function setLanguage(lang) {
+//   console.log(lang);
+//   localStorage.setItem('language', lang);
+// }

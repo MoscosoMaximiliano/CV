@@ -1,6 +1,16 @@
-var language;
+var scrollY;
 
 $(document).ready(function () {
+
+  scrollY = localStorage.getItem('scrollPosition');
+
+  console.log(scrollY);
+
+  if (scrollY != 0)
+    $('html, body').animate({
+      scrollTop: scrollY,
+    }, 0);
+
   //Scroll or hide the menu
   $('.menu-toggler').on('click', function () {
     $(this).toggleClass('open');
@@ -37,6 +47,17 @@ $(document).ready(function () {
   // //Setting all texts with language selections
   // $('#lang-WIP').text(language.wip);
 });
+
+function ChangePage(url)
+{
+
+  scrollY = document.documentElement.scrollTop;
+
+  localStorage.setItem('scrollPosition', scrollY);
+
+  window.location.replace(url);
+
+}
 
 //Functions used for set up the language ( NOT WORKING CHROME DON'T ACCEPT REQUEST FROM FILE)
 

@@ -355,9 +355,11 @@ li {
 	color: #833AB4;
 }
 .fa-github:hover {
-	color: ##999999;
+	color: #c5c1b9;
 }
-
+.fa-linkedin:hover {
+	color: #0077b5;
+}
 
 /*End about*/
 

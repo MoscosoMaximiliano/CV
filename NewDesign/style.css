@@ -13,7 +13,7 @@ html {
 body {
 	width: 100%;
 	height: 100%;
-	background: #594057;
+	background: #2D142C;
 	background-size: cover;
 }
 
@@ -25,31 +25,6 @@ html, body {
 a {
     text-decoration:none;
     color: inherit;
-}
-
-aside {
-  background: #FF6D3F;
-  float: left;
-  width: 500px;
-  height:100vh;
-  position:fixed;
-  left:-450px;
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
-  transition: all 0.4s ease;
-}
-
-aside div{
-  color: rgba(255,255,255,0.5);
-  width:250px;
-  padding:80px 45px 60px 150px;
-}
-
-aside div i {
-  padding: 8px;
-}
-aside div i:hover {
-color: rgba(255,255,255,1);
-text-shadow: 1px 1px black;
 }
 
 main{
@@ -71,4 +46,73 @@ main{
 
 .after {
   transform: translateX(450px);
+}
+
+
+
+/* AFASFASF */
+
+
+.page {
+	width: 100vw;
+	min-height: 100vh;
+	grid-area: aside;
+	display: flex;
+}
+
+.nav {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 300px;
+	height: 100%;
+	background-color: #EE4540;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-sizing: border-box;
+	color: white;
+	transition: all .3s ease;
+}
+
+.logo {
+	font-size: 50px;
+	position: absolute;
+	top: 75px;
+	left: 50%;
+	transform: translateX(-50%);
+	cursor: pointer;
+	transition: all .3s linear;
+}
+
+.item {
+	margin: 20px 0 20px 20px;
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+}
+
+.item i {
+	font-size: 20px;
+}
+
+.item span {
+	font-weight: 300;
+	margin-left: 10px;
+}
+
+.nav.collapsed {
+	width: 60px;
+}
+
+.nav.collapsed .item {
+	margin: 20px auto;
+}
+
+.nav.collapsed .item span {
+	display: none;
+}
+
+.nav.collapsed .logo {
+	transform: translateX(-50%) scale(.7);
 }
